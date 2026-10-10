@@ -1,0 +1,36 @@
+/* Paragraph style for all of them */
+p {
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Style for all level two headers */
+h2 {
+    color: #990000;
+    text-decoration: underline;
+}
+
+/* Border with color for all tables */
+table, td, th {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #990000;
+    border-collapse: collapse;
+}
+
+/* Style for the third paragraph */
+p#third-paragraph {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Class rule block */
+.darkblue {
+    color: darkblue;
+}
+
+/* Width and height for img tags with logo class */
+img.logo {
+    width: 267px;
+    height: 70px;
+}
